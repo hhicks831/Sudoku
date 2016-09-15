@@ -1,0 +1,49 @@
+body {
+
+	margin-left: 2em;
+	background-color: lightgrey;
+	color: black;
+	font-size: 20px; /* default size -- overridden */
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1, th {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+
+
+th, td {
+/*	padding: 20px;*/
+	border: .1em #666 solid; /*box borders - Short for #666666 hex = Gray40 */
+	text-align: center;
+	padding: 0em;
+	margin: 0em;
+}
+
+.field-large{
+	text-align: center; 
+	width: 2em;
+	height: 2em;
+	border: 0em;
+	padding: 0em;
+	font-size: 1em;
+}
+
+.bold-right{
+
+	border-right: .2em solid black;
+}
+
+.bold-bottom{
+
+	border-bottom: .2em solid black;
+}
